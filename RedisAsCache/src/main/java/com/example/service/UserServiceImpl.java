@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.example.UserNotFoundException;
+import com.example.exception.UserNotFoundException;
 import com.example.model.User;
 import com.example.repo.UserRepo;
 import org.springframework.cache.annotation.CacheEvict;
