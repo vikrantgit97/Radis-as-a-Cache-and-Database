@@ -25,6 +25,7 @@ To get started with this project, you will need to have the following installed 
 
 * JDK 11+
 * Maven 3+
+* MySQL
 * Redis
 
 ## Technologies used
@@ -33,11 +34,9 @@ To get started with this project, you will need to have the following installed 
     MySQL
     Redis
     Open-API(Swagger)
-    Lombok
-
 ## Build and Run the project, follow these steps
 * Locally
-    - Clone the repository: `git clone https://github.com/vikrantcropdata/Rest-API-Radis-Caching-Test-Evaluation-2.git`
+    - Clone the repository: `git clone https://github.com/vikrantgit97/Radis-as-a-Cache-and-Database.git`
     - Navigate to the project directory
     - Create a database in MySql `db_caching`
     - Build the project: `mvn clean install`
@@ -45,6 +44,8 @@ To get started with this project, you will need to have the following installed 
     - Run `./elasticsearch` script inside the bin directory of the elastic search package
 * Docker
     - Run `docker-compose up --build -d` to run the docker services
+## Documentation (Swagger)
+[SwaggerDocumentation_SpringBoot_Redis_Cache_Application](http://localhost:8080/swagger-ui.html) to visualize the exposed API
 ## SpringBoot With Redis As a Cache References
 1)[Spring Data Redis_Document (Official)](https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/)
 
