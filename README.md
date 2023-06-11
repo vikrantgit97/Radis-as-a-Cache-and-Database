@@ -41,7 +41,6 @@ To get started with this project, you will need to have the following installed 
     - Create a database in MySql `db_caching`
     - Build the project: `mvn clean install`
     - Run `mvn clean package spring-boot:run` to build the artifact and run the application
-    - Run `./elasticsearch` script inside the bin directory of the elastic search package
 * Docker
     - Run `docker-compose up --build -d` to run the docker services
 ## Documentation (Swagger)
